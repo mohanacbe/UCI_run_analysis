@@ -20,14 +20,16 @@ For each record in the dataset it is provided:
 
 Variables identify the activity pair related to:
 
-* Subject  >> Integer SubjectId
-* Activity >> String Activity Name:
-** Walking
-** Walking Upstairs
-** Walking Downstairs
-** Sitting
-** Standing
-** Laying
+1. Subject  
+2. Features 
+3. Activity >> Activity Name:
+* Walking
+* Walking Upstairs
+* Walking Downstairs
+* Sitting
+* Standing
+* Laying
+
 
 ## Relevant Papers:
 
