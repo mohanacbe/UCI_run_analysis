@@ -71,10 +71,11 @@ id_labels   = c("subject", "Activity_ID", "Activity_Label")
 data_labels = setdiff(colnames(data), id_labels)
 melt_data      = melt(data, id = id_labels, measure.vars = data_labels)
 
+# Transformations
 ## Apply mean function to dataset using dcast function
 tidy_data   = dcast(melt_data, subject + Activity_Label ~ variable, mean)
 
-# Transformations
+
 ## Write Tidy Data Set file
 Results were output as an indepenent tidy data set at ./tidy_data_set.txt
 
