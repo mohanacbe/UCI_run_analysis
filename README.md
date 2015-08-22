@@ -1,7 +1,6 @@
-# UCI_run_analysis
-## Getting and Cleaning Data - UCI Run Analysis
+# Getting and Cleaning Data - UCI Run Analysis
 
-# Project Requirement
+## Project Requirement
 Create one R script called run_analysis.R that does the following:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -9,8 +8,8 @@ Create one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# List of Steps/Scripts 
-## Check and Install Packages
+## List of Steps/Scripts 
+Check and Install Packages
 install.packages("data.table")
 install.packages("reshape2")
 
